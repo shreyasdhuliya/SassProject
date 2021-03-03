@@ -13,9 +13,13 @@
 [NPM node-sass youtube link](https://www.youtube.com/watch?v=IiekEtKbhxk)
 
 `npm init`
+
 `npm install node-sass --save `
+
 //convert .scss file to css
+
 `package.json, script > "compile:sass" : "node-sass style.scss style.css"`, 
+
 `npm compile:sass`
 
 
