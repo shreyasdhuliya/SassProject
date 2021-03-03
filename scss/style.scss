@@ -1,3 +1,5 @@
+//exaxmple
+
 .red {
     color:red;
 
@@ -8,4 +10,17 @@
             color:pink;
         }
     }
+}
+
+//Variables
+$deepBlue: #032f3e;
+$sectionHeadding: 24px;
+
+#main-nav{
+    background: $deepBlue;
+}
+
+section h1{
+    font-size: $sectionHeadding;
+    color:$deepBlue;
 }
