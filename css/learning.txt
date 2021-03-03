@@ -12,3 +12,12 @@ https://www.youtube.com/watch?v=IiekEtKbhxk
 package.json, script > "compile:sass" : "node-sass style.scss style.css", 
 > npm compile:sass
 
+//3. Nesting Styles --------------------------------//
+style.scss
+if we have li as float values the main nav height will become zero
+to over come this we use :after
+#main-nav ul:after{
+    content:"";
+    display:block;
+    clear:both;
+}
