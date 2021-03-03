@@ -1,0 +1,6 @@
+.red {
+  color: red; }
+  .red a {
+    color: blue; }
+    .red a span {
+      color: pink; }
