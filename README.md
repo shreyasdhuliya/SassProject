@@ -12,10 +12,10 @@
 ### NPM Environment Creation
 [NPM node-sass](https://www.youtube.com/watch?v=IiekEtKbhxk)
 
-```npm init
-npm install node-sass --save```
+> npm init
+> npm install node-sass --save 
 //convert .scss file to css
-```package.json, script > "compile:sass" : "node-sass style.scss style.css",
-npm compile:sass```
+package.json, script > "compile:sass" : "node-sass style.scss style.css", 
+> npm compile:sass
 
 
