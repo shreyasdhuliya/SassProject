@@ -10,12 +10,12 @@
 [Youtube NetNinja](https://www.youtube.com/watch?v=wLfyzlGqDP4&list=PL4cUxeGkcC9iEwigam3gTjU_7IA3W2WZA&index=3)
 
 ### NPM Environment Creation
-[NPM node-sass](https://www.youtube.com/watch?v=IiekEtKbhxk)
+[NPM node-sass youtube link](https://www.youtube.com/watch?v=IiekEtKbhxk)
 
-> npm init
+```> npm init
 > npm install node-sass --save 
 //convert .scss file to css
 package.json, script > "compile:sass" : "node-sass style.scss style.css", 
-> npm compile:sass
+> npm compile:sass```
 
 
