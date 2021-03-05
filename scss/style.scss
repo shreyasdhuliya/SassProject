@@ -12,7 +12,9 @@
     li{
         float:left;
         width:(100%/6);
-        text-decoration:none;
+        @include mQ(600px){
+            width:100%;
+        }
     }
     a{
         color: $offWhite;
@@ -21,7 +23,7 @@
         display:block;
         text-align: center;
         &:hover{
-            background-color: #333;
+            background-color: lighten($deepBlue, 5);
         }
     }
 }
@@ -66,7 +68,7 @@ section h1{
         color:$deepBlue;
         font-weight: bold;
         &:hover{
-            color:red;
+            color: complement($deepBlue);
         }
     }
     ul{
